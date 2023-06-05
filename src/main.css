@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* The below Styling is for Header Component */
+/* 1. The below Styling is for Nav Component */
+
+.header-nav{
+    display: flex;
+    height: 70px;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+/* The Above Styling is for Nav Component */
+
+/* 2. The below Styling is for Content Component */
+
+.section-one{
+    display: flex;
+    justify-content: center;
+}
+
+.section-image{
+    padding-top: 30px;
+    width: 500px;
+}
+
+.section-text{
+    padding-block: 15px;
+    padding-left: 40px;
+    font-size: 2em;
+}
+
+.section-para{
+    padding-left: 40px;
+    width: 400px;
+}
+
+/* The Above Styling is for Content Component */
+/* The Above Styling is for Header Component */
+
+/* The below Styling is for Card Component */
+.card{
+    padding-block: 30px;
+    padding-left: 40px;
+    width: 250px;
+    font-size: 13px;
+    
+}
+
+.card-photo{
+    border-radius: 15px;
+    width: 200px;
+}
+
+.card-photo-section{
+    position: relative;
+}
+
+.card-detail{
+    margin: 0;
+    padding-block: 8px;
+}
+
+.card-star{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.star-image{
+    height: 15px;
+    width: 15px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.move{
+    padding-top: 1.35px;
+    padding-left: 5px;
+}
+
+.grey{
+    padding-top:1.35px ;
+    color: gray;
+    padding-left: 2px;
+}
+
+/* The Above Styling is for Card Component */
+
+/* The Below Styling is for Card Component */
+
+.card-row{
+    display: flex;
+}
+
+/* The Above Styling is for Card Component */
+
+/* The below Styling is for Header Component */
+.header-component{
+    display: flex;
+    flex-direction: column;
+}
